@@ -178,6 +178,15 @@
 
 				<!-- About Me -->
 					<section id="about" class="three">
+<div id="editor1" contenteditable="true">
+    <h1>Inline Editing in Action!</h1>
+    <p>The "div" element that contains this text is now editable.
+</div>
+<script>
+    // Turn off automatic editor creation first.
+    CKEDITOR.disableAutoInline = true;
+    CKEDITOR.inline( 'editor1' );
+</script>
 						<div class="container">
 
 							<header>
